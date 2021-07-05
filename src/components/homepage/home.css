@@ -83,7 +83,7 @@
   }
 
 .card-main{
-    height: 50vh;
+    height: 53vh;
     width: 26%;
     position: relative;
     background-color: cornsilk;
@@ -147,4 +147,21 @@
     color: rgb(159, 159, 235);
     margin-left: 38%;
 
+}
+
+.home-readmore-btn{
+    margin-left: 28%;
+    margin-bottom: 50px;
+    height: 38px;
+    width: 130px;
+    background-color: rgb(128, 165, 155);
+    left: 10%;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.home-readmore-btn>h2{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: .9rem;
 }
