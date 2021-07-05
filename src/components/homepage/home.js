@@ -52,7 +52,51 @@ const Homepage = () => {
                     <h6>20/40/8080</h6>
                 </div>
 
+                <div className="card-main">
+                    <div className="card-img">
+                        <img src={samimg2}/>
+                    </div>
+                    <h2>HEADING</h2>
+                    <h5>vaisakh is a very much bloody fool..
+                    , Lorem ipsum is a placeholder text commonly
+                     used to demonstrate the visual form of a document or a typeface
+                    </h5>
+                    <h6>20/40/8080</h6>
+                </div>
+
+                <div className="card-main">
+                    <div className="card-img">
+                        <img src={samimg2}/>
+                    </div>
+                    <h2>HEADING</h2>
+                    <h5>vaisakh is a very much bloody fool..
+                    , Lorem ipsum is a placeholder text commonly
+                     used to demonstrate the visual form of a document or a typeface
+                    </h5>
+                    <h6>20/40/8080</h6>
+                </div>
+            
+
+                <div className="home-footer">
+                    <div className="footer-card">
+
+                    </div>
+                    
+                    <div className="footer-card">
+
+                    </div>
+
+                    <div className="footer-card">
+
+                    </div>
+
+                        <h5>copyright@2021.Design by CKSS</h5>
+                   
+                </div>
+
+                
             </div>
+           
             </div>
                 
     

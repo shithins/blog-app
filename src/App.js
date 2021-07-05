@@ -1,7 +1,8 @@
 import './App.css';
 import Homepage from './components/homepage/home';
 import Navbar from './components/navbar/navbar'
-import Footer from './components/footer/footer'
+import Postpage from './components/postfull/fullpost'
+
 
 import {BrowserRouter as Router,
   Switch,
@@ -18,9 +19,12 @@ function App() {
          <Route path="/" exact>
            <Homepage/>
          </Route>
+         <Route path="/posts" exact>
+           <Postpage/>
+         </Route>
       </Switch>
      </Router>
-     <Footer/>
+     
     </div>
   );
 }

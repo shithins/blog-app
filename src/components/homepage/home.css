@@ -35,10 +35,7 @@
     border-radius: 38px;
     cursor: pointer;
 }
-.home-sign-btn:hover{
-    transition:  all .5s;
-    box-shadow: 5px 5px 2px 5px rgba(61, 61, 61, 0.808);
-}
+
 
 .home-sign-btn>h2{
     color: black;
@@ -81,6 +78,9 @@
     display: flex;
     flex-wrap: wrap;
 }
+.home-content-sec::-webkit-scrollbar {
+    display: none;
+  }
 
 .card-main{
     height: 50vh;
@@ -116,4 +116,35 @@
     text-align: end;
     margin-right: 30px;
     margin-bottom: 1px;
+}
+
+.home-footer{
+    position: relative;
+    height: 45vh;
+    width: 80%;
+    background-color: rgba(24, 24, 66, 0.705);
+    margin-top: 6%;
+    margin-left: 9%;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.footer-card{
+    position: relative;
+    height: 30vh;
+    width: 20%;
+    background-color: rgba(38, 38, 73, 0.651);
+    margin-top: 55px;
+    margin-left: 10%;
+ 
+}
+
+.home-footer>h5{
+    font-family: sans-serif;
+    color: rgb(159, 159, 235);
+    margin-left: 38%;
+
 }
