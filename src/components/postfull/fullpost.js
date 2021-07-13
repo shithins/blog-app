@@ -46,6 +46,58 @@ Versions of the Lorem ipsum text have been used in typesetting at least since th
           </div>
           </div>
 
+          <div className="sugg-card">
+          <img src={postsam2}/>
+          <h5>In publishing and graphic design, 
+              Lorem ipsum is a placeholder text commonly used to demonstrate 
+              the visual form of a document or a 
+              typeface without relying on meaningful content. 
+              Lorem ipsum may be used as a placeholder before final copy
+               is available. </h5>
+          <div className="readmore-btn">
+              <h2>Read More..</h2>
+          </div>
+          </div>
+
+          <div className="sugg-card">
+          <img src={postsam2}/>
+          <h5>In publishing and graphic design, 
+              Lorem ipsum is a placeholder text commonly used to demonstrate 
+              the visual form of a document or a 
+              typeface without relying on meaningful content. 
+              Lorem ipsum may be used as a placeholder before final copy
+               is available. </h5>
+          <div className="readmore-btn">
+              <h2>Read More..</h2>
+          </div>
+          </div>
+
+          <div className="sugg-card">
+          <img src={postsam2}/>
+          <h5>In publishing and graphic design, 
+              Lorem ipsum is a placeholder text commonly used to demonstrate 
+              the visual form of a document or a 
+              typeface without relying on meaningful content. 
+              Lorem ipsum may be used as a placeholder before final copy
+               is available. </h5>
+          <div className="readmore-btn">
+              <h2>Read More..</h2>
+          </div>
+          </div>
+
+          <div className="sugg-card">
+          <img src={postsam2}/>
+          <h5>In publishing and graphic design, 
+              Lorem ipsum is a placeholder text commonly used to demonstrate 
+              the visual form of a document or a 
+              typeface without relying on meaningful content. 
+              Lorem ipsum may be used as a placeholder before final copy
+               is available. </h5>
+          <div className="readmore-btn">
+              <h2>Read More..</h2>
+          </div>
+          </div>
+          
           </div>
         </div>
     )

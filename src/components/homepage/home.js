@@ -13,8 +13,8 @@ const Homepage = () => {
         <div className="home-main">
             <div className="navbar-sec">
                 <h2>SYNERGY</h2>
-                <SearchOutlinedIcon style={{height:"35px",width:"43px",color:"white",marginLeft:"90%",marginTop:"0px"}}/>
-                <MenuTwoToneIcon/>   
+                <button className="search-btn" ><SearchOutlinedIcon /></button>
+                <button className="menu-btn"><MenuTwoToneIcon/> </button>  
             </div>
             <div className="quote-sec">
             <h2>A writer only<br/>
