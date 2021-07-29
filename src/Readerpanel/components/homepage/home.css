@@ -1,0 +1,156 @@
+.home-main{
+  
+    height: 98vh;
+    width: 99.2%;
+    position: relative;
+    background-size: cover;
+    background-position: initial;
+    position: relative;
+    left: 4px;   
+}
+
+.home-img-sec{
+    position: absolute;
+    height: fit-content;
+    top:130px ;
+    left: 195px;
+   /* background-color: thistle;*/
+}
+.home-img-sec>svg{
+    height: 397px;
+    width: auto;
+}
+
+.quote-sec{
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    right: 158px;
+    top: 140px;
+
+}
+.quote-sec>h2{
+    color: #6C63FF;
+
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-family: monospace;
+}
+.quote-sec>h5{
+    
+    color: #6C63FF;
+   
+}
+
+
+
+
+
+.home-content-sec{
+   
+    
+   
+    position: relative;
+    background-size: cover;
+   
+    
+     
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-around;
+    padding: 0px 89px;
+    padding-top: 96px;
+}
+.home-content-sec>.home-content-h2{
+    position: absolute;
+    top: -4px;
+    left: 130px;
+    text-decoration: underline;
+
+}
+
+.card-main{
+    height: 53vh;
+    width: 26%;
+    position: relative;
+    background-color: cornsilk;
+    margin-top: 4%;
+    margin-left: 15%;
+}
+
+.card-img>img{
+    width: 100%;
+    height: 20vh;
+}
+
+.card-main>h2{
+    margin-left: 25%;
+    margin-top: 0px;
+    font-family: sans-serif;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.card-main>h5{
+    margin: 5px;
+    text-align: center;
+    font-size: .7rem;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.card-main>h6{
+    text-align: end;
+    margin-right: 30px;
+    margin-bottom: 1px;
+}
+
+.home-footer{
+    position: relative;
+    height: 45vh;
+    width: 80%;
+    background-color: rgba(24, 24, 66, 0.705);
+    margin-top: 6%;
+    margin-left: 9%;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.footer-card{
+    position: relative;
+    height: 30vh;
+    width: 20%;
+    background-color: rgba(38, 38, 73, 0.651);
+    margin-top: 55px;
+    margin-left: 10%;
+ 
+}
+
+.home-footer>h5{
+    font-family: sans-serif;
+    color: rgb(159, 159, 235);
+    margin-left: 38%;
+
+}
+
+.home-readmore-btn{
+    margin-left: 28%;
+    margin-bottom: 50px;
+    height: 38px;
+    width: 130px;
+    background-color: rgb(128, 165, 155);
+    left: 10%;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.home-readmore-btn>h2{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: .9rem;
+}

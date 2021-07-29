@@ -1,0 +1,44 @@
+.navbar-sec{
+    position: relative;
+    padding-top: 1px;
+    top: 12vh;
+    left: 8%;
+    align-items: center;
+    height: 60px;
+    width: 82%;
+    background-color: rgba(240, 245, 245, 0.486);
+}
+.search-btn{
+    position: absolute;
+    right: 50px;
+    top: 25%;
+  
+    
+}
+.search-btn , .menu-btn{
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 1px #6C63FF;
+}
+.search-btn:hover,.menu-btn:hover{
+background-color: #aaaaaab8;
+color: white;
+}
+.menu-btn{
+    position: absolute;
+    top: 25%;
+    left: 50px;
+}
+
+.navbar-sec>h2{
+    margin-top: 6px;
+    text-align: center;
+    color: #6C63FF;
+    
+}
+.navbar-sec>h2::first-letter{
+    color: #363333e5;
+    font-size: 35px;
+
+}
