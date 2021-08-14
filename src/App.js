@@ -1,7 +1,7 @@
 import './App.css';
-import Homepage from './components/homepage/home';
-import Navbar from './components/navbar/navbar'
-import Postpage from './components/postfull/fullpost'
+import Homepage from './Readerpanel/components/homepage/home';
+import Navbar from './Readerpanel/components/navbar/navbar'
+import Postpage from './Readerpanel/components/postfull/fullpost'
 
 
 import {BrowserRouter as Router,
