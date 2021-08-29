@@ -139,7 +139,7 @@ const Homepage = () => {
           <h2>
             {" "}
             <ImportContactsIcon />
-            Recent posts
+            Recent Posts
           </h2>
         </div>
     
