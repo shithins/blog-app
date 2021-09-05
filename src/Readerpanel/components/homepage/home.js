@@ -1,11 +1,11 @@
 import React from "react";
 import "./home.css";
 
-import samimg1 from "../../../image/booksam1.jpeg";
-import samimg2 from "../../../image/booksam2.jpeg";
+
 import { Redirect, useHistory } from "react-router-dom";
-import Blogcard from "../blogcard/Blogcard";
-import ImportContactsIcon from "@material-ui/icons/ImportContacts";
+import Recentposts  from "../HomeBlogs/RecentPosts";
+
+
 const Homepage = () => {
   const history = useHistory();
   return (
@@ -134,32 +134,17 @@ const Homepage = () => {
           <h5>--SAMUEL JHONSON</h5>
         </div>
       </div>
-      <div className="home-content-sec">
-        <div className="home-content-h2">
-          <h2>
-            {" "}
-            <ImportContactsIcon />
-            Recent posts
-          </h2>
-        </div>
-    
-        <Blogcard samimg={samimg2} />
-        <Blogcard samimg={samimg2} />
-        <Blogcard samimg={samimg2} />
-      </div>
+       <div className="all-cards">
+         <Recentposts title={'RecentPosts'} /> 
+         {/* <Recentposts />  */}
+
+         
+       </div> 
 
 
       
 
-      <div className="home-footer">
-        <div className="footer-card"></div>
-
-        <div className="footer-card"></div>
-
-        <div className="footer-card"></div>
-
-        <h5>copyright@2021.Design by CKSS</h5>
-      </div>
+      
     </div>
   );
 };

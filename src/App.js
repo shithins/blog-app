@@ -2,12 +2,12 @@ import './App.css';
 import Homepage from './Readerpanel/components/homepage/home';
 import Navbar from './Readerpanel/components/navbar/navbar'
 import Postpage from './Readerpanel/components/postfull/fullpost'
-
+import Footer from './Readerpanel/components/Footer/footer';
 
 import {BrowserRouter as Router,
   Switch,
   Route,
-  Redirect,} from "react-router-dom";
+  Redirect,} from "react-router-dom"; 
 
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
          </Route>
       </Switch>
      </Router>
-     
+     <Footer/>
     </div>
   );
 }
