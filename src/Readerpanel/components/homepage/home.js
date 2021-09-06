@@ -4,7 +4,7 @@ import "./home.css";
 
 import { Redirect, useHistory } from "react-router-dom";
 import Recentposts  from "../HomeBlogs/RecentPosts";
-
+import Catagories from "../HomeBlogs/catagories";
 
 const Homepage = () => {
   const history = useHistory();
@@ -135,8 +135,15 @@ const Homepage = () => {
         </div>
       </div>
        <div className="all-cards">
-         <Recentposts title={'RecentPosts'} /> 
-         {/* <Recentposts />  */}
+         <Recentposts title={'RecentPosts'} />
+<div className="cata-cards">
+        <Catagories title={'Science'}/>
+        <Catagories title={'Sports'}/>
+        <Catagories title={'Web development'}/>
+        <Catagories title={'Automobiles'}/>
+        <Catagories title={'Cyber security'}/>
+        <Catagories title={'Banking '}/>
+        </div>
 
          
        </div> 

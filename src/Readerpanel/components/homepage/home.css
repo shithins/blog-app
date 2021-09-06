@@ -106,21 +106,3 @@
     margin-right: 30px;
     margin-bottom: 1px;
 }
-
-
-.home-readmore-btn{
-    margin-left: 28%;
-    margin-bottom: 50px;
-    height: 38px;
-    width: 130px;
-    background-color: rgb(128, 165, 155);
-    left: 10%;
-    border-radius: 30px;
-    cursor: pointer;
-}
-
-.home-readmore-btn>h2{
-    text-align: center;
-    font-family: sans-serif;
-    font-size: .9rem;
-}
