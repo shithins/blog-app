@@ -47,21 +47,15 @@
 
 
 .home-content-sec{
-   
-    
-   
     position: relative;
-    background-size: cover;
-   
-    
-     
-    
+    background-size: cover; 
+    justify-content: space-around;   
+    padding: 50px 89px;
+    padding-top: 96px;  
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    
-    justify-content: space-around;
-    padding: 0px 89px;
-    padding-top: 96px;
+      
 }
 .home-content-sec>.home-content-h2{
     position: absolute;
@@ -70,6 +64,8 @@
     text-decoration: underline;
 
 }
+
+
 
 .card-main{
     height: 53vh;

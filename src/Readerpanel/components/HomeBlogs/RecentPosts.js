@@ -15,10 +15,15 @@ const Recentposts = ({title}) => {
                  {title} 
           </h2>
         </div>
-    
+   
         <Blogcard samimg={samimg2} />
         <Blogcard samimg={samimg2} />
         <Blogcard samimg={samimg2} />
+        <Blogcard samimg={samimg2} />
+        <Blogcard samimg={samimg2} />
+        
+
+      
       </div>
     )
 } 
